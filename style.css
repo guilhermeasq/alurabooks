@@ -9,11 +9,13 @@
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
+    --preto: #000000;
     --cor-menu-titulo: #EB9B00;
     --cor-subtitulo: #002F52;
     --cor-menu-item: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --cor-fundo-banner: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
+    --fonte-titulo: "Josefin Sans";
 }
 
 body {
