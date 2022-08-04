@@ -2,4 +2,4 @@
 
 > Status: on-going
 
-Description: practice on developing a mobile-first interface for an e-commerce plataform of IT books.
+Description: practice on developing a mobile-first interface for an e-commerce landing page platform of IT books.
