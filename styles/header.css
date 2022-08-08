@@ -1,3 +1,10 @@
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
 .cabecalho__menu {
     width: 24px;
     height: 24px;
@@ -15,13 +22,7 @@
 .container__botao:checked~.container__rotulo {
     background: var(--cor-menu-item);
 }
-.cabecalho {
-    background-color: var(--branco);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
+
 .container {
     display: flex;
     align-items: center;
@@ -100,7 +101,7 @@
         display: none;
     }
     .cabecalho {
-        padding: 1em 2.2em;
+        padding: 0 2.2em;
     }
     .container__icone {
         margin: 0 1em;
