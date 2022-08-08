@@ -67,8 +67,14 @@
         </ul>
         <div class="container">
             <a href="#"><img src="img/Favoritos.svg" alt="icone de favoritos" class="container__icone container__icone-transparente"></a>
-            <a href="#"><img src="img/Sacola.svg" alt="icone de compras" class="container__icone"></a>
-            <a href="#"><img src="img/Usuario.svg" alt="icone de usuario" class="container__icone"></a>
+            <a href="#" class="container__link">
+                <img src="img/Sacola.svg" alt="icone de compras" class="container__icone">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/Usuario.svg" alt="icone de usuario" class="container__icone">
+                <p class="container__texto">Minha perfil</p>
+            </a>
         </div>
     </header>
     <section class="banner"> <!--código do banner abaixo do menu-->
@@ -78,6 +84,7 @@
     </section>
     <section class="carrossel"> <!--código do carrossel de livros-->
         <h2 class="carrossel__titulo">últimos Lançamentos</h2>
+        <div class="carrossel__container">
         <!-- Slider main container -->
         <div class="swiper">
             <!-- If we need pagination -->
@@ -119,9 +126,11 @@
                 <a href="#" class="botoes__botao">Saiba mais</a>
             </div>
         </div>
+    </div>
     </section>
     <section class="carrossel"> <!--código do segundo carrossel de livros-->
         <h2 class="carrossel__titulo">mais vendidos</h2>
+        <div class="carrossel__container">
         <!-- Slider main container -->
         <div class="swiper">
             <!-- If we need pagination -->
@@ -164,6 +173,7 @@
                 <a href="#" class="botoes__botao">Saiba mais</a>
             </div>
         </div>
+    </div>
     </section>
     <section class="topicos"> <!--código do banner de tópicos mais visitados-->
         <h2 class="topicos__titulo">Tópicos visitados recentemente</h2>
