@@ -126,6 +126,13 @@
     .lista-menu__item:hover >.lista-menu__link {
         -webkit-text-fill-color: var(--branco);
     }
+    .opcoes__item:active {
+        background: var(--cor-menu-item);
+        color: var(--branco);
+    }
+    .lista-rodape__link:hover {
+        color: var(--cor-menu-titulo);
+    }
 }
 
 @media screen and (min-width: 1728px) {

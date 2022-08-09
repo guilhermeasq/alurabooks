@@ -43,6 +43,7 @@
     font-weight: 700;
     padding: 1em 2.2em;
 }
+
 .descricao__titulo {
     font-size: 16px;
     color: var(--cor-menu-titulo);
@@ -88,6 +89,9 @@
     .card {
         width: 40%;
         margin: 2em auto;
+    }
+    .botoes__botao:hover {
+        box-shadow: 5px 5px 5px var(--preto);
     }
 }
 
